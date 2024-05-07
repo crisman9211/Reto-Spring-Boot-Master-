@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: "master-spring-boot-base-project"
+
+logging:
+    level:
+        root: INFO
+      
+
+
+# Managment Actuator        
+management:
+  endpoints:
+    enabled-by-default: false
+    web:
+      exposure:
+        include: health, info, beans, threaddump, mappings
+  endpoint:
+    health:
+      show-details: always
+      show-components: always
+      enabled: true
+    info:
+      enabled: true
+    beans:
+      enabled: true
+    threaddump:
+      enabled: true
+    mappings:
+      enabled: true
+
+   
