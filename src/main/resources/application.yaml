@@ -1,10 +1,10 @@
 spring:
   application:
-    name: "master-spring-boot-base-project"
+    name: "master-spring-boot"
 
 logging:
     level:
-        root: INFO
+        root: DEBUG
       
 
 
